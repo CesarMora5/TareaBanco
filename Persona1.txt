@@ -1,0 +1,35 @@
+class Persona(object):
+     def __init__(self,nombre,apellido,rut,telefono):
+        self.nombre=""
+        self.apellido=""
+        self.rut=""
+        self.telefono=0
+
+        def getNombre(self,nombre):
+            self.nombre=nombre
+        
+        def ponerApellido(self,apellido):
+            self.apellido=apellido
+        
+        def ponerRut(self,rut):
+             self.rut=rut
+
+        def ponerTELEFONO(self,telefono):
+            self.telefono=telefono
+
+  
+        def tomarNombre(self):
+            return self.nombre
+            
+        def tomarAPELLIDO(self):
+            return self.Apellido
+
+        def tomarRut(self):
+            return self.rut
+
+        def tomarTelefono(self):
+            return self.telefono
+
+        def __str__(self) :
+            return self.nombre+" "+self.apellido+""+str(self.rut)+" "+self.telefono+" "+self.direccion
+

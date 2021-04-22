@@ -1,0 +1,9 @@
+from Persona import *
+class Cliente(Persona):
+    def __init__(self, nombre,apellido,rut,telefono,clave,correoelectronico,saldo):
+        Persona.__init__(nombre,apellido,rut,telefono)
+        self.clave=clave
+        self.correoelectronico=correoelectronico
+        self.saldo=saldo
+
+         
